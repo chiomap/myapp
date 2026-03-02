@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graceville Elementary School | Professional & Values-Based Education</title>
+    <meta name="description"
+        content="Graceville Elementary School Nsukka provides high-quality education in a secure and supportive environment for learners aged 2.6 to 11.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div id="app">
+        <!-- Main Navigation -->
+        <nav id="navbar" class="glass-nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <span class="logo-text">GES<small>Graceville Elementary School</small></span>
+                </div>
+
+                <div class="nav-links main-navigation">
+                    <a href="#home" class="nav-link public-link active">Home</a>
+                    <a href="#about" class="nav-link public-link">About Us</a>
+                    <a href="#news" class="nav-link public-link">News/Events</a>
+                    <a href="#gallery" class="nav-link public-link">Gallery</a>
+                    <a href="#contact" class="nav-link public-link">Contact</a>
+                    <a href="#" id="login-btn" class="nav-link portal-btn">PORTAL</a>
+                </div>
+
+                <div class="portal-links hidden">
+                    <a href="#" class="nav-link active" data-view="dashboard">Dashboard</a>
+                    <a href="#" class="nav-link" data-view="students">Students</a>
+                    <a href="#" class="nav-link" data-view="grades">Grades</a>
+                    <a href="#" id="logout-btn" class="nav-link">Logout</a>
+                </div>
+            </div>
+        </nav>
+
+        <main id="main-content">
+            <!-- Landing View -->
+            <section id="landing-view" class="view-section active">
+                <!-- Hero Section -->
+                <div class="hero">
+                    <div class="hero-content">
+                        <p>Welcome To</p>
+                        <h1><span>Graceville</span> Elementary School Nsukka</h1>
+                        <p>Our learning environment is the best around Nsukka.</p>
+                        <div class="hero-actions">
+                            <button class="btn-primary">CONTACT US</button>
+                            <button class="btn-outline">READ MORE</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tri-Cards (Mission/Vision/History) -->
+                <div class="tri-cards">
+                    <div class="info-card">
+                        <div class="card-icon">🎯</div>
+                        <h4>Mission</h4>
+                        <p>We are committed to provide quality education whose standard is second to none in a secure,
+                            supportive and stimulating learning environment for children.</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="card-icon">👁️</div>
+                        <h4>Vision</h4>
+                        <p>To equip learners with independent, problem solving, thinking and communication skills in
+                            line with the 21st century requirements.</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="card-icon">🏛️</div>
+                        <h4>History</h4>
+                        <p>Graceville Elementary is a private, non-denominational Christian Primary School. The
+                            foundation stone was laid in July 2004.</p>
+                    </div>
+                </div>
+
+                <!-- About Us Detailed -->
+                <section class="about-section" id="about">
+                    <div class="about-image">
+                        <img src="https://images.unsplash.com/photo-1546410531-bb4caa6b424d?auto=format&fit=crop&q=80&w=1000"
+                            alt="About GES">
+                    </div>
+                    <div class="about-content">
+                        <h2>About Us</h2>
+                        <h3>Excellence in <span>Elementary</span> Education</h3>
+                        <p>Graceville Elementary is a private, non-denominational Christian Primary School. The
+                            foundation stone of the school was laid in July 2004 and the school opened its doors on 29
+                            September 2004, offering education to boys and girls aged 2½ – 11.</p>
+                        <p>There are 15 well ventilated classrooms with ceiling fans. The school has spacious
+                            accommodation which enables us to provide a music/ICT room and well stocked library.</p>
+                        <button class="btn-primary">READ MORE</button>
+                    </div>
+                </section>
+
+                <!-- Stats Counter -->
+                <div class="stats-section">
+                    <div class="stats-container">
+                        <div class="stat-item">
+                            <span class="stat-icon">🎓</span>
+                            <span class="stat-number">800</span>
+                            <span class="stat-label">Students</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-icon">👨‍🏫</span>
+                            <span class="stat-number">120</span>
+                            <span class="stat-label">Teachers/Staff</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-icon">🗓️</span>
+                            <span class="stat-number">20</span>
+                            <span class="stat-label">Years of Excellence</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Dashboard Portal View -->
+            <section id="dashboard-view" class="view-section hidden">
+                <div class="dashboard-header">
+                    <h2>Academic Dashboard</h2>
+                    <p>Welcome back, Administrator | Term: Easter 2026</p>
+                </div>
+
+                <div class="portal-grid">
+                    <div class="portal-card">
+                        <h3>Overview</h3>
+                        <div style="height: 150px; display: flex; align-items: flex-end; gap: 1rem; padding-top: 1rem;">
+                            <!-- Simulated Chart -->
+                            <div style="flex: 1; height: 60%; background: var(--accent);"></div>
+                            <div style="flex: 1; height: 80%; background: var(--accent);"></div>
+                            <div style="flex: 1; height: 45%; background: var(--accent);"></div>
+                            <div style="flex: 1; height: 90%; background: var(--accent);"></div>
+                        </div>
+                    </div>
+                    <div class="portal-card">
+                        <h3>Quick Links</h3>
+                        <ul class="footer-links" style="color: var(--text-main);">
+                            <li><a href="#" style="color: var(--primary);">Generate Term Reports</a></li>
+                            <li><a href="#" style="color: var(--primary);">View Staff Attendance</a></li>
+                            <li><a href="#" style="color: var(--primary);">School Fees Records</a></li>
+                        </ul>
+                    </div>
+                    <div class="portal-card">
+                        <h3>Notifications</h3>
+                        <p style="font-size: 0.85rem; color: var(--text-muted);">New student registration from Nsukka
+                            central district pending approval.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Students Section -->
+            <section id="students-view" class="view-section hidden">
+                <div class="dashboard-header">
+                    <h2>Student Records</h2>
+                </div>
+                <div class="portal-grid full-width">
+                    <div class="portal-card full-width">
+                        <table style="width: 100%; border-collapse: collapse; text-align: left;">
+                            <thead style="border-bottom: 2px solid var(--accent);">
+                                <tr>
+                                    <th style="padding: 1rem;">ID</th>
+                                    <th>NAME</th>
+                                    <th>CLASS</th>
+                                    <th>FEES STATUS</th>
+                                    <th>ACTIONS</th>
+                                </tr>
+                            </thead>
+                            <tbody id="student-table-body">
+                                <!-- JS Populated -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Grades Section -->
+            <section id="grades-view" class="view-section hidden">
+                <div class="dashboard-header">
+                    <h2>Academic Performance</h2>
+                </div>
+                <div class="portal-grid">
+                    <div class="portal-card">
+                        <h3>Grade School Stats</h3>
+                        <p>Most students are performing at Grade A level for Mathematics and Literacy.</p>
+                    </div>
+                    <div class="portal-card">
+                        <h3>Report Status</h3>
+                        <p>85% of Nursery reports finalized.</p>
+                        <p>60% of Primary reports finalized.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- GES Footer -->
+        <footer class="ges-footer">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>About Us</h4>
+                    <p style="opacity: 0.8; font-size: 0.9rem;">We are very proud of our school, the learning
+                        environment, the facilities and quality of teaching and of course, our friendly and supportive
+                        staff.</p>
+                    <div class="socials" style="margin-top: 2rem; font-size: 1.2rem; display: flex; gap: 1rem;">
+                        <span>FB</span> <span>TW</span> <span>IG</span> <span>YT</span>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h4>Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">News/Events</a></li>
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col contact-info">
+                    <h4>Contact Details</h4>
+                    <p>📍 Off Tobechukwu Close, Onuiyi – Nsukka</p>
+                    <p>📞 234 816 531 3470 (SMS ONLY)</p>
+                    <p>📧 info@ges.ng</p>
+                    <p>🌐 www.ges.ng</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2026 GES Nsukka. All Rights Reserved.
+            </div>
+        </footer>
+    </div>
+
+    <!-- Login Modal -->
+    <div id="login-modal" class="modal hidden"
+        style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.8); display: flex; justify-content: center; align-items: center; z-index: 2000;">
+        <div
+            style="background: white; padding: 3rem; border-radius: 8px; max-width: 400px; width: 100%; text-align: center;">
+            <h3 style="color: var(--primary); margin-bottom: 2rem;">Staff Portal Login</h3>
+            <form id="login-form">
+                <div style="margin-bottom: 1rem; text-align: left;">
+                    <label style="display: block; font-size: 0.8rem; margin-bottom: 0.5rem;">Username</label>
+                    <input type="text" value="ges_admin" readonly
+                        style="width: 100%; padding: 0.8rem; border: 1px solid #ddd; border-radius: 4px;">
+                </div>
+                <div style="margin-bottom: 2rem; text-align: left;">
+                    <label style="display: block; font-size: 0.8rem; margin-bottom: 0.5rem;">Password</label>
+                    <input type="password" value="password" readonly
+                        style="width: 100%; padding: 0.8rem; border: 1px solid #ddd; border-radius: 4px;">
+                </div>
+                <button type="submit" class="btn-primary full-width">LOGIN TO PORTAL</button>
+                <button type="button" id="close-modal"
+                    style="margin-top: 1rem; background: none; border: none; text-decoration: underline; color: #666; cursor: pointer;">Cancel</button>
+            </form>
+        </div>
+    </div>
+
+    <script type="module" src="/main.js"></script>
+</body>
+
+</html>
